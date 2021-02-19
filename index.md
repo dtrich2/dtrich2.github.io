@@ -1,47 +1,16 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Dennis Rich</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name"><a href="index.html" class="regular">Dennis Rich</a></h1>
-	  <h2 class="project-tagline"><a href="mailto:dtrich2@illinois.edu" class="regular">dtrich2@illinois.edu</a> - (309) 531 5048 - 3018 Thornwood Lane, Bloomington, IL</h2>
-      <a href="Dennis-Rich-Resume.pdf" class="btn">Resume</a>
-      <a href="publications.html" class="btn">Publications and Presentations</a>
-      <a href="experience.html" class="btn">Experience</a>
-    </section>
+### Welcome to GitHub Pages.
+This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here [using GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/), select a template crafted by a designer, and publish. After your page is generated, you can check out the new `gh-pages` branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.
 
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>A researcher with experience in the very small.</h3>
+[Resume](Dennis%20Rich%20Resume.pdf)
 
-<p>I'm devoted to process-based inquiry. As technology grows smaller and faster, the only way we can hope to keep up is by smarter and more precise processes. I've worked with diverse systems from waterproof nanopores to GaN semiconductors, and I have the familiarity necessary to remain ahead of the curve.</p>
+### Designer Templates
+We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>A quick yet methodical thinker.</h3>
+### Creating pages manually
+If you prefer to not use the automatic generator, push a branch named `gh-pages` to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.
 
-<p>Since my high schooling at the prestigous Illinois Math and Science Academy, I've had to quickly assimilate knowledge and develop conclusions and, more importantly, results. I'm more than just comfortable in a challenging environment: I'm at home.</p>
+### Authors and Contributors
+You can @mention a GitHub username to generate a link to their profile. The resulting `<a>` element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (@defunkt), PJ Hyett (@pjhyett), and Tom Preston-Werner (@mojombo) founded GitHub.
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>An effective communicator.</h3>
-
-<p>A successful investigation means nothing if one fails to communicate his results. My time as an improvisational actor taught me wit, clarity, and speed. I've been schooled in public speaking, and have over five years of experience tutoring my peers. Conveyed by such expert means, the discoveries I've made over the years couldn't help but be noticed.</p>
-
-      <footer class="site-footer">
-        <span class="site-footer-owner">References available on request.</span>
-
-        <span class="site-footer-credits">This page was generated using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
-
-    </section>
-
-  
-  </body>
-</html>
+### Support or Contact
+Having trouble with Pages? Check out our [documentation](https://help.github.com/pages) or [contact support](https://github.com/contact) and we’ll help you sort it out.
