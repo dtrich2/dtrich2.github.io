@@ -9,26 +9,55 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
+  <script>
+    function CopyToClipboard(id)
+    {
+    var r = document.createRange();
+    r.selectNode(document.getElementById(id));
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(r);
+    document.execCommand('copy');
+    window.getSelection().removeAllRanges();
+    }
+  </script>
   <body>
     <section class="page-header">
-      <h1 class="project-name"><a href="index.html" class="regular">Dennis Rich</a></h1>
-	  <h2 class="project-tagline"><a href="mailto:dtrich2@illinois.edu" class="regular">dtrich2@illinois.edu</a> - (309) 531 5048 - 3018 Thornwood Lane, Bloomington, IL</h2>
+      <a href="index.html" class="regular"><img src="dennis.png" alt="3D N3XT Nanosystem" style="height:100px; border-radius: 50%;">
+      <h1 class="project-name">Dennis Rich</a></h1>
+    <h2 class="project-tagline"><a href="mailto:denrich@stanford.edu" class="regular">denrich@stanford.edu</a> - <a href="#" title="Copy number" class="regular" onclick="CopyToClipboard('copytext');return false;"><span ID="copytext">3095315048</span></a> - Stanford, CA</h2>
+      <a href="index.html" class="btn">Projects</a>
+      <a href="publications.html" class="btn" style="border-color: rgba(255, 255, 255, 0.8);">Publications</a>
       <a href="Dennis-Rich-Resume.pdf" class="btn">Resume</a>
-      <a href="publications.html" class="btn">Publications and Presentations</a>
-      <a href="experience.html" class="btn">Experience</a>
+      <a href="https://www.linkedin.com/in/dennis-rich-nano/" class="btn">LinkedIn</a>
     </section>
 
     <section class="main-content">
       
-	  
+	<h3>Publications</h3>
+  <a href="https://link.springer.com/chapter/10.1007/978-3-030-18338-7_9">
+  Heterogeneous 3D Nano-systems: The N3XT Approach?</a><br>
+  <span class = "site-footer-credits">Dennis Rich, Andrew Bartolo, Carlo Gilardo, Binh Le, Haitong Li, Rebecca Park, Robert M. Radway, Mohamed M. Sabry Aly, H.-S. Philip Wong, and Subhasish Mitra.  <i>Springer, 2020.</i></span>
+  <br><br>
 	<a href="http://pubs.acs.org/doi/abs/10.1021/acs.langmuir.6b04432">
 	The Thermodynamics of Restoring Underwater Superhydrophobicity</a><br>
 	<span class = "site-footer-credits">Paul R. Jones, Adrian T. Kirn, Y. David Ma, Dennis T. Rich, and Neelesh A. Patankar.  <i>Langmuir, 2017.</i></span>
-	<br><br>
-	
-	<a href="http://meetings.aps.org/Meeting/DFD14/Event/229557">
+
+	<h3>Expected Publications</h3>
+  Fast Thermal Simulation of Monolithically Interspersed Logic and Memory<br>
+  <span class = "site-footer-credits">Dennis Rich, Robert Radway, Mehdi Ashegi, and Subhasish Mitra. <i>Expected 2021.</i></span>
+  <br><br>
+
+  Novel Write Strategies for Multiple-Bits-Per-Cell Phase-Change Memory<br>
+  <span class = "site-footer-credits">Dennis Rich, Xin Zheng, Asir Khan, Philip Wong, and Subhasish Mitra. <i>Expected 2021.</i></span>
+
+  <h3>Presentations</h3>
+	<a href="https://systemx.stanford.edu/events/annual-conference/20191119/systemx-november-conference-nov-19-21-2019">N3XT Heterogeneous Integration: From Lab to Fab</a><br>
+  <span class = "site-footer-credits">Robert Radway, Dennis Rich, and Subhasish Mitra. <i>SystemX November Conference 2019.</i></span>
+  <br><br>
+
+  <a href="http://meetings.aps.org/Meeting/DFD14/Event/229557">
 	Controlling phase change: Drying-up under water</a><br>
-	<span class = "site-footer-credits">November 2014 | American Physical Society | San Francisco, California</span>
+	<span class = "site-footer-credits">Paul Jones, Adrian Kirn, Dennis Rich, Ashley Elliot, and Neelesh Patankar. <i>Bulletin of the American Physical Society 2014.</i></span>
 
 	  
       <footer class="site-footer">

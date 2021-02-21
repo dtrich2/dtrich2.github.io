@@ -13,12 +13,17 @@
 		  box-sizing: border-box;
 		}
 
+
 		/* Create two equal columns that floats next to each other */
 		.column {
 		  float: left;
 		  width: 50%;
 		  padding: 10px;
 		  text-align: center;
+		}
+
+		p {
+			font-size: 16px;
 		}
 
 		/* Clear floats after the columns */
@@ -36,13 +41,26 @@
 		}
 	</style>
   </head>
+	<script>
+		function CopyToClipboard(id)
+		{
+		var r = document.createRange();
+		r.selectNode(document.getElementById(id));
+		window.getSelection().removeAllRanges();
+		window.getSelection().addRange(r);
+		document.execCommand('copy');
+		window.getSelection().removeAllRanges();
+		}
+	</script>
   <body>
     <section class="page-header">
-      <h1 class="project-name"><a href="index.html" class="regular">Dennis Rich</a></h1>
-	  <h2 class="project-tagline"><a href="mailto:denrich@stanford.edu" class="regular">denrich@stanford.edu</a> - (309) 531 5048 - Stanford, CA</h2>
+      <a href="index.html" class="regular"><img src="dennis.png" alt="3D N3XT Nanosystem" style="height:100px; border-radius: 50%;">
+      <h1 class="project-name">Dennis Rich</a></h1>
+	  <h2 class="project-tagline"><a href="mailto:denrich@stanford.edu" class="regular">denrich@stanford.edu</a> - <a href="#" title="Copy number" class="regular" onclick="CopyToClipboard('copytext');return false;"><span ID="copytext">3095315048</span></a> - Stanford, CA</h2>
+      <a href="index.html" class="btn" style="border-color: rgba(255, 255, 255, 0.8);">Projects</a>
+      <a href="publications.html" class="btn">Publications</a>
       <a href="Dennis-Rich-Resume.pdf" class="btn">Resume</a>
-      <a href="publications.html" class="btn">Publications and Presentations</a>
-      <a href="experience.html" class="btn">Experience</a>
+      <a href="https://www.linkedin.com/in/dennis-rich-nano/" class="btn">LinkedIn</a>
     </section>
 
 
@@ -52,30 +70,49 @@
 
 		<div class="row">
 		  <div class="column">
-		    <h3><span aria-hidden="true" class="octicon octicon-link"></span><a href="https://icorlab.ece.illinois.edu/research/"><img src="thin_film.jpg" alt="Flexible CMOS device" style="width:304px;height:228px;"><br>Flexible Semiconductor Devices</a></h3>
-		    <p>asdf</p>
+		    <h3><span aria-hidden="true" class="octicon octicon-link"></span><a href="https://www.bnl.gov/modsim2019/files/talks/SubhasishMitra.pdf"><img src="n3xt.png" alt="3D N3XT Nanosystem" style="height:404px;"><br>Thermal Analysis of Future 3D Nanosystems</a></h3>
+		    <p>Future 3D nanosystems will provide massive latency and energy benefits (see linked presentation), but their thermal behavior is still not well understood. I am performing automated IC thermal analysis with 3D-ICE, COMSOL, and Python to quantify the impact of parameters like heatsink effectiveness and back-end-of-line conductivity in 100,000+ systems.</p>
 			<br><br>
 		  </div>
 		  <div class="column">
-		    <h3><a href="http://patankar.mech.northwestern.edu/"><img src="waterproofing.jpg" alt="Nanopore waterproof surface" style="width:304px;height:228px;"><br>Nanopore Waterproofing</a></h3>
-		    <p>asdf</p>
+		    <h3><a href="chiang_beol_analytical_thermal.pdf"><img src="beol_thermal.png" alt="BEOL Thermal" style="height:228px;"><br>Improved Analytical Thermal Model for Interconnects</a></h3>
+		    <p>Back-end-of-line interconnects make up larger and larger portions of an IC stack as more layers are added. The linked paper provides a starting point for the analytical model I developed based on the thermal fin model, allowing layout engineers to quickly understand the impact of their metallization layers on system heating.</p>
+		    <h3><a href="wu_tsmc_etal_pcm.pdf"><img src="pcm_project.jpg" alt="Dennis at his PCM testbench" style="height:228px;"><br>1.4 Mb Phase-Change Memory Array Testbench Characterization</a></h3>
+		    <p>I collaborated with TSMC to characterize and test the phase-change memory technology in the linked paper. In particular, I developed a hardware testing environment to investigate new write strategies to store multiple bits per cell despite the natural resistance change of cells over time.</p>
 			<br><br>
 		  </div>
 		</div>
 
 		<h2>Past Projects</h2>
+		<h4>Undergraduate student in the <a href="https://icorlab.ece.illinois.edu/research/">UIUC Innovative Compound Semiconductor Laboratory</a> with <a href="https://icorlab.ece.illinois.edu/people/professor-can-bayram/">Prof. Can Bayram</a></h4>
 		<div class="row">
 		  <div class="column">
 		    <h3><span aria-hidden="true" class="octicon octicon-link"></span><a href="https://icorlab.ece.illinois.edu/research/"><img src="thin_film.jpg" alt="Flexible CMOS device" style="width:304px;height:228px;"><br>Flexible Semiconductor Devices</a></h3>
-		    <p>asdf</p>
+		    <p>I developed class 1000 cleanroom processes to produce and characterize flexible thin-film devices from brittle materials, devoting over 250 cleanroom hours.</p>
 			<br><br>
 		  </div>
 		  <div class="column">
-		    <h3><a href="http://patankar.mech.northwestern.edu/"><img src="waterproofing.jpg" alt="Nanopore waterproof surface" style="width:304px;height:228px;"><br>Nanopore Waterproofing</a></h3>
-		    <p>asdf</p>
+		    <h3><a href="https://icorlab.ece.illinois.edu/research/"><img src="linbo3.png" alt="Thin-film niobate transducers" style="width:304px;height:228px;"><br>Thin-Film Lithium Niobate Surface Acoustic Wave Transducers</a></h3>
+		    <p>I characterized lithium niobate with atomic force microscopy, X-ray diffraction, Raman spectroscopy, and more to enable development of SAW transducers.</p>
 			<br><br>
 		  </div>
 		</div>
+		<h4>Guest researcher at Northwestern University</h4>
+		<div class="row">
+		  <div class="column">
+		    <h3><a href="http://patankar.mech.northwestern.edu/metasurfaces.html"><img src="waterproofing.jpg" alt="Nanopore waterproof surface" style="width:304px;height:228px;"><br>Nanopore Waterproofing</a></h3>
+		    <p>I simulated the molecular dynamics of water in a nanoporous system with C++ and Visual Molecular Dynamics. Advised by <a href="http://patankar.mech.northwestern.edu/">Prof. Neelesh Patankar</a>.</p>
+			<br><br>
+		  </div>
+		  <div class="column">
+			<h3><span aria-hidden="true" class="octicon octicon-link"></span><a href="http://www.nano.northwestern.edu/current-research/"><img src="nanotube.jpg" alt="Carbon nanotube" style="width:304px;height:228px;"><br>Carbon Nanotube Thermoelectrics</h3></a>
+		    <p>I investigated carbon nanotube fabrication with chemical vapor deposition, atomic force microscopy, and scanning electron microscopy to optimize their thermoelectric properties. Advised by <a href="http://www.nano.northwestern.edu/">Prof. Venkat Chandrasekhar</a>.</p>
+			<br><br>
+		  </div>
+		</div>
+		<h4>Design Intern at <a href="https://www.silabs.com/timing">Silicon Labs</a></h4>
+	    <h3 style="text-align: center;"><span aria-hidden="true" class="octicon octicon-link"></span><a href="https://www.silabs.com/timing"><img src="eye.jpg" alt="Eye diagram" style="width:304px;height:228px;"><br>Signal Transmission Integrity Analysis</h3></a>
+		<p>I designed new splitting techniques to preserve signal integrity in PCB-based transmission lines of phase-locked loops.</p>
       <footer class="site-footer">
         <span class="site-footer-owner">References available on request.</span>
 
